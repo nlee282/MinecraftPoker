@@ -6,8 +6,8 @@ public final class Poker extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        System.out.println("Plugin Starting!");
+        getCommand("draw").setExecutor(new Command());
     }
 
     @Override
